@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calci">
+            <input type="text" placeholder="0" id="output">
+            <button onclick="cl()">C</button>
+            <button onclick="del()">del</button>
+            <button onclick="disp('%')">%</button>
+            <button onclick="disp('/')">/</button>
+            <button onclick="disp('7')">7</button>
+            <button onclick="disp('8')">8</button>
+            <button onclick="disp('9')">9</button>
+            <button onclick="disp('*')">*</button>
+            <button onclick="disp('4')">4</button>
+            <button onclick="disp('5')">5</button>
+            <button onclick="disp('6')">6</button>
+            <button onclick="disp('-')">-</button>
+            <button onclick="disp('1')">1</button>
+            <button onclick="disp('2')">2</button>
+            <button onclick="disp('3')">3</button>
+            <button onclick="disp('+')">+</button>
+            <button onclick="disp('.')">.</button>
+            <button onclick="disp('0')">0</button>
+            <button onclick="calc('=')" class="equal">=</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
